@@ -3,7 +3,8 @@
 -- Table to store scripts for each game
 local gameScripts = {
     -- Roblox game PlaceId = script URL or function
-    [78299840360328] = "https://raw.githubusercontent.com/Develiper722/StupidityHubV1/main/hubscripts/Protect_a_Friend.lua"  
+    [8892608969] = "https://raw.githubusercontent.com/Develiper722/StupidityHubV1/main/hubscripts/Protect_a_Friend.lua"  
+    [78299840360328] = "https://raw.githubusercontent.com/Develiper722/StupidityHubV1/main/hubscripts/Protect_a_Friend.lua"
 }
 
 -- Get current game PlaceId
