@@ -1,3 +1,4 @@
+-- hi
 local gameScripts = {
     [78299840360328]  = "https://raw.githubusercontent.com/Develiper722/RetardedHubV1/main/hubwarnings/Protect_a_Friend.lua",
     [134497392943706] = "https://raw.githubusercontent.com/Develiper722/RetardedHubV1/main/hubscripts/Protect_a_Friend.lua",
