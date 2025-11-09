@@ -1,5 +1,5 @@
 -- holy fucking shit, FINALLY I MADE IT WORK
-
+-- StupidHub is a shortended version of stupidityhub
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
 getgenv().StationAuto = getgenv().StationAuto or {
@@ -23,9 +23,12 @@ getgenv().StationAuto.Unload = function()
 end
 
 local Window = Rayfield:CreateWindow({
-	Name = "auto do stuff",
-	ConfigurationSaving = { Enabled = false },
-})
+   Name = "StupidityHubV1`s Billionaire Simulator 2 scipt",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "Made in only 2 hours",
+   LoadingSubtitle = "by @system96 on discord",
+   ShowText = "StupidHubV1", -- for mobile users to unhide rayfield, change if you'd like
+   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
 -- WaitForChild chain: if this blows up, it's probs my code's fault this time, 
 local hqFolder = workspace:WaitForChild("HQs")
