@@ -1,9 +1,10 @@
 local gameScripts = {
     [78299840360328]  = "https://raw.githubusercontent.com/Develiper722/StupidityHubV1/main/hubwarnings/Protect_a_Friend.lua",
     [134497392943706] = "https://raw.githubusercontent.com/Develiper722/StupidityHubV1/main/hubscripts/Protect_a_Friend.lua",
+    [12578778816] = "https://raw.githubusercontent.com/Develiper722/StupidityHubV1/main/hubscripts/Billionaire-Simulator-2.lua"
 }
 
-local FALLBACK_HUB = "https://raw.githubusercontent.com/Develiper722/StupidityHubV1/main/hubscripts/HubIndex.lua"
+local FALLBACK_HUB = "https://raw.githubusercontent.com/Develiper722/StupidityHubV1/main/hubwarnings/test.lua"
 
 local function looks_like_html(text)
     if not text or type(text) ~= "string" then return false end
